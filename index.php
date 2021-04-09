@@ -94,35 +94,21 @@
 <script type="text/javascript">
     modoNoche();
 </script>
+
 <body id="body">
     <div id="preloader"></div>
-    <div id="panelEstilos" class="panelEstilos"></div>
-    <div class="felicitacion">
-        <h2 id="feliz"></h2>
-        <h2 id="anio"></h2>
-        <img id="imagenFelicitacion" src="" alt="" />
-    </div>
     <mi-button></mi-button>
     <i class=" arriba fas fa-arrow-alt-circle-up"></i>
-    <div class="fiestas">
-        <img id="adorno" src="" alt="" />
-        <button id="stop" class="stop" style="display:none;" onclick="fecha('stop')" type="button">Parar
-        </button>
-        <script type="text/javascript">
-            fecha();
-        </script>
-    </div>
     <mi-button></mi-button>
-    <div class="separador5">
-        <div class="container">
+    <div class="separador5"></div>
             <!-- partial:index.partial.html -->
-            <div class='form-overlay'></div>
             <div class='icon fa fa-pencil' id='form-container'>
                 <!-- <span class='icon feo fa fa-close' id='form-close'></span> -->
                 <div id='form-content'>
                     <div id='form-head'>
-                        <h2 class='pre'>CONTACTO</h2>
-                        <h1 class='pre'>Micro Developer</h1>
+                        <h1 class='pre'>Cuestionario</h1>
+                        <h1 class='pre'>LO IMPOSIBLE</h1>
+
                         <h2 class='post'>Gracias!</h2>
                         <h1 class='post'>Le contestaré con mayor brevedad posible.</h1>
                     </div>
@@ -131,8 +117,161 @@
                         <!-- <input type="text"  name="direccion" id="direccion"/><br/>
                 <input type="text"  name="pais" id="pais"/><br/>
                 <input type="text"  name="web-site" id="web-site"/><br/> -->
-                        <input class="input email" placeholder="&#xf003;  Email" id="email" type="email" name="Email" />
-                        <input class="input phone fa fa-phone" placeholder="&#xf095;  Teléfono" id="telefono" type="tel" name="Telefono" />
+                        <fieldset>
+                            <legend> ¿Te consideras generoso? </legend>
+                            <label>
+                                <input type="radio" name="numero" value="1"> 1
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="2"> 2
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="3"> 3
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="4"> 4
+                                                            </label>
+                                                            <label>
+                                <input type="radio" name="numero" value="5"> 5
+                                                            </label>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend> ¿Con qué frecuencia ayudas a tus vecinos?  </legend>
+                            <label>
+                                <input type="radio" name="numero" value="1"> 1
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="2"> 2
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="3"> 3
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="4"> 4
+                                                            </label>
+                                                            <label>
+                                <input type="radio" name="numero" value="5"> 5
+                                                            </label>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend> ¿Eres una persona humilde?  </legend>
+                            <label>
+                                <input type="radio" name="numero" value="1"> 1
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="2"> 2
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="3"> 3
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="4"> 4
+                                                            </label>
+                                                            <label>
+                                <input type="radio" name="numero" value="5"> 5
+                                                            </label>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend> Conductas, comportamientos, actitudes frente a la vida </legend>
+                            <label>
+                                <input type="radio" name="numero" value="1"> 1
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="2"> 2
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="3"> 3
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="4"> 4
+                                                            </label>
+                                                            <label>
+                                <input type="radio" name="numero" value="5"> 5
+                                                            </label>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend> Si haces algún tipo de voluntariado social, ¿cuánto tiempo le dedicas al voluntariado?  </legend>
+                            <label>
+                                <input type="radio" name="numero" value="1"> 1
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="2"> 2
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="3"> 3
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="4"> 4
+                                                            </label>
+                                                            <label>
+                                <input type="radio" name="numero" value="5"> 5
+                                                            </label>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend> ¿Perteneces a algún club social?   </legend>
+                            <label>
+                                <input type="radio" name="numero" value="1"> 1
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="2"> 2
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="3"> 3
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="4"> 4
+                                                            </label>
+                                                            <label>
+                                <input type="radio" name="numero" value="5"> 5
+                                                            </label>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend> ¿Cuáles son los valores que más destacas en el ser humano?  </legend>
+                            <label>
+                                <input type="radio" name="numero" value="1"> 1
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="2"> 2
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="3"> 3
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="4"> 4
+                                                            </label>
+                                                            <label>
+                                <input type="radio" name="numero" value="5"> 5
+                                                            </label>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend> ¿Has vivido a alguna catástrofe natural de cerca?  </legend>
+                            <label>
+                                <input type="radio" name="numero" value="1"> 1
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="2"> 2
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="3"> 3
+                            </label>
+                            <label>
+                                <input type="radio" name="numero" value="4"> 4
+                                                            </label>
+                                                            <label>
+                                <input type="radio" name="numero" value="5"> 5
+                                                            </label>
+                        </fieldset>
+                        <br>
+
+                        
+
                         <textarea class="input message" placeholder="&#xf0e5;  Mensaje" rows="10" cols="40" maxlength="1000" id="comentario" name="comentario" onkeypress="calcular()" onkeyup="calcular()"></textarea>
                         <p>Le quedan <span id="contador-char">1000</span> de 1000 caracteres.</p>
                         <!--pueden cambiar el lenguaje con el parametro hl-->
@@ -162,7 +301,6 @@
                 // }
                 ?>
             </div>
-        </div>
     </div>
 
 
