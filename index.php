@@ -104,8 +104,8 @@
         <!-- <span class='icon feo fa fa-close' id='form-close'></span> -->
         <div id='form-content'>
             <div id='form-head'>
-                <h1 class='pre'>Cuestionario</h1>
-                <h1 class='pre'>LO IMPOSIBLE</h1>
+                <h2 class='pre'>LO IMPOSIBLE</h2>
+                <h1 class='pre'>Actividad cineforum</h1>
 
                 <h2 class='post'>Gracias!</h2>
                 <h1 class='post'>Le contestaré con mayor brevedad posible.</h1>
