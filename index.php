@@ -54,7 +54,7 @@
     <!-- Vendor CSS Files -->
     <link href="/src/assets/boxicons/css/boxicons.min.css" rel="stylesheet">
     <!-- estilos -->
-    <link rel="stylesheet" href="/src/assets/style/styles/style.css" media="screen" />
+    <!-- <link rel="stylesheet" href="/src/assets/style/styles/style.css" media="screen" /> -->
     <link rel="stylesheet" href="/src/app/pages/webs/webs.css" media="screen" />
     <script type="text/javascript" src="/src/app/pages/webs/webs.js"></script>
     <!-- TRANSICIONES -->
@@ -87,7 +87,6 @@
     <script type="text/javascript" src="./script.js"></script>
     <link rel="stylesheet" href="./styles/googleApis.css" type="text/css">
 </head>
-<mi-nav></mi-nav>
 <!-- CAMBIO DE ESTILOS -->
 <link id="modo" href="" rel="stylesheet" media="screen" />
 <link id="color" href="" rel="stylesheet" media="screen" />
@@ -98,209 +97,206 @@
 <body id="body">
     <div id="preloader"></div>
     <mi-button></mi-button>
-    <i class=" arriba fas fa-arrow-alt-circle-up"></i>
     <mi-button></mi-button>
     <div class="separador5"></div>
-            <!-- partial:index.partial.html -->
-            <div class='icon fa fa-pencil' id='form-container'>
-                <!-- <span class='icon feo fa fa-close' id='form-close'></span> -->
-                <div id='form-content'>
-                    <div id='form-head'>
-                        <h1 class='pre'>Cuestionario</h1>
-                        <h1 class='pre'>LO IMPOSIBLE</h1>
+    <!-- partial:index.partial.html -->
+    <div class='icon fa fa-pencil' id='form-container'>
+        <!-- <span class='icon feo fa fa-close' id='form-close'></span> -->
+        <div id='form-content'>
+            <div id='form-head'>
+                <h1 class='pre'>Cuestionario</h1>
+                <h1 class='pre'>LO IMPOSIBLE</h1>
 
-                        <h2 class='post'>Gracias!</h2>
-                        <h1 class='post'>Le contestaré con mayor brevedad posible.</h1>
-                    </div>
-                    <form role="form" action="" method="post" id="formulario" name="formulario" class="">
-                        <input class="input name" id="nombre" placeholder="&#xf007;  Nombre" type="text" name="Nombre" />
-                        <!-- <input type="text"  name="direccion" id="direccion"/><br/>
+                <h2 class='post'>Gracias!</h2>
+                <h1 class='post'>Le contestaré con mayor brevedad posible.</h1>
+            </div>
+            <form role="form" action="" method="post" id="formulario" name="formulario" class="">
+                <input class="input name" id="nombre" placeholder="&#xf007;  Nombre" type="text" name="Nombre" />
+                <!-- <input type="text"  name="direccion" id="direccion"/><br/>
                 <input type="text"  name="pais" id="pais"/><br/>
                 <input type="text"  name="web-site" id="web-site"/><br/> -->
-                        <fieldset>
-                            <legend> ¿Te consideras generoso? </legend>
-                            <label>
-                                <input type="radio" name="numero" value="1"> 1
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="2"> 2
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="3"> 3
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="4"> 4
-                                                            </label>
-                                                            <label>
-                                <input type="radio" name="numero" value="5"> 5
-                                                            </label>
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <legend> ¿Con qué frecuencia ayudas a tus vecinos?  </legend>
-                            <label>
-                                <input type="radio" name="numero" value="1"> 1
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="2"> 2
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="3"> 3
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="4"> 4
-                                                            </label>
-                                                            <label>
-                                <input type="radio" name="numero" value="5"> 5
-                                                            </label>
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <legend> ¿Eres una persona humilde?  </legend>
-                            <label>
-                                <input type="radio" name="numero" value="1"> 1
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="2"> 2
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="3"> 3
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="4"> 4
-                                                            </label>
-                                                            <label>
-                                <input type="radio" name="numero" value="5"> 5
-                                                            </label>
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <legend> Conductas, comportamientos, actitudes frente a la vida </legend>
-                            <label>
-                                <input type="radio" name="numero" value="1"> 1
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="2"> 2
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="3"> 3
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="4"> 4
-                                                            </label>
-                                                            <label>
-                                <input type="radio" name="numero" value="5"> 5
-                                                            </label>
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <legend> Si haces algún tipo de voluntariado social, ¿cuánto tiempo le dedicas al voluntariado?  </legend>
-                            <label>
-                                <input type="radio" name="numero" value="1"> 1
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="2"> 2
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="3"> 3
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="4"> 4
-                                                            </label>
-                                                            <label>
-                                <input type="radio" name="numero" value="5"> 5
-                                                            </label>
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <legend> ¿Perteneces a algún club social?   </legend>
-                            <label>
-                                <input type="radio" name="numero" value="1"> 1
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="2"> 2
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="3"> 3
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="4"> 4
-                                                            </label>
-                                                            <label>
-                                <input type="radio" name="numero" value="5"> 5
-                                                            </label>
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <legend> ¿Cuáles son los valores que más destacas en el ser humano?  </legend>
-                            <label>
-                                <input type="radio" name="numero" value="1"> 1
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="2"> 2
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="3"> 3
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="4"> 4
-                                                            </label>
-                                                            <label>
-                                <input type="radio" name="numero" value="5"> 5
-                                                            </label>
-                        </fieldset>
-                        <br>
-                        <fieldset>
-                            <legend> ¿Has vivido a alguna catástrofe natural de cerca?  </legend>
-                            <label>
-                                <input type="radio" name="numero" value="1"> 1
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="2"> 2
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="3"> 3
-                            </label>
-                            <label>
-                                <input type="radio" name="numero" value="4"> 4
-                                                            </label>
-                                                            <label>
-                                <input type="radio" name="numero" value="5"> 5
-                                                            </label>
-                        </fieldset>
-                        <br>
+                <fieldset>
+                    <legend> ¿Te consideras generoso? </legend>
+                    <label>
+                        <input type="radio" name="generoso" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="generoso" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="generoso" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="generoso" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="generoso" value="5"> 5
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend> ¿Con qué frecuencia ayudas a tus vecinos? </legend>
+                    <label>
+                        <input type="radio" name="ayudas" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="ayudas" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="ayudas" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="ayudas" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="ayudas" value="5"> 5
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend> ¿Eres una persona humilde? </legend>
+                    <label>
+                        <input type="radio" name="humilde" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="humilde" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="humilde" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="humilde" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="humilde" value="5"> 5
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend> Conductas, comportamientos, actitudes frente a la vida </legend>
+                    <label>
+                        <input type="radio" name="conductas" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="conductas" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="conductas" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="conductas" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="conductas" value="5"> 5
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend> Si haces algún tipo de voluntariado social, ¿cuánto tiempo le dedicas al voluntariado? </legend>
+                    <label>
+                        <input type="radio" name="voluntariado" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="voluntariado" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="voluntariado" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="voluntariado" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="voluntariado" value="5"> 5
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend> ¿Perteneces a algún club social? </legend>
+                    <label>
+                        <input type="radio" name="club social" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="club social" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="club social" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="club social" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="club social" value="5"> 5
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend> ¿Cuáles son los valores que más destacas en el ser humano? </legend>
+                    <label>
+                        <input type="radio" name="valores" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="valores" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="valores" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="valores" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="valores" value="5"> 5
+                    </label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend> ¿Has vivido a alguna catástrofe natural de cerca? </legend>
+                    <label>
+                        <input type="radio" name="catastrofe natural" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="catastrofe natural" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="catastrofe natural" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="catastrofe natural" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="catastrofe natural" value="5"> 5
+                    </label>
+                </fieldset>
+                <br>
+                <br>
 
-                        
 
-                        <textarea class="input message" placeholder="&#xf0e5;  Mensaje" rows="10" cols="40" maxlength="1000" id="comentario" name="comentario" onkeypress="calcular()" onkeyup="calcular()"></textarea>
-                        <p>Le quedan <span id="contador-char">1000</span> de 1000 caracteres.</p>
-                        <!--pueden cambiar el lenguaje con el parametro hl-->
-                        <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
-                        <!--El site key de su sitio-->
-                        <!-- <input type="checkbox" id="terms">
-                <label for="terms">
-                    <p>He leído y acepto <a href="">los terminos y condiciones.</a></p>
-                </label> -->
-                        <div class="inputRecaptcha  g-recaptcha" id="recaptcha" data-sitekey="<?php echo $publicKey; ?>"></div>
-                        </br>
-                        <button class="button btn-animate" type="button" name="enviar" id="enviar">
-                            <span class="submit"><i class="fa fa-paper-plane"></i></span>
-                            <span class="loading"><i class="fa fa-refresh"></i></span>
-                            <span class="check"><i class="fa fa-check"></i></span>
-                            <span class="bad"><i class="fa fa-close"></i></span>
-                        </button>
-                        <button class='borrar ' type="button" name="limpiar" id="limpiar"><span><i class="fa fa-eraser"></i></span></button>
-                    </form>
-                </div>
-            </div>
-            <div class="">
-                <?php
-                // if ($showMessage) {
-                //     echo !$error ? '<div class="bs-example-bg-classes"><p class="bg-success text-center">' . $message . '</p></div>' : '';
-                //     echo $error ? ' <div class="bs-example-bg-classes"><p class="bg-danger text-center">' . $message . '</p></div>' : '';
-                // }
-                ?>
-            </div>
+                <legend> ¿De qué forma actuarías en una situación similar? </legend>
+                <textarea class="input message" placeholder="&#xf0e5;  Mensaje" rows="10" cols="40" maxlength="1000" id="comentario" name="comentario" onkeypress="calcular()" onkeyup="calcular()"></textarea>
+                <p>Le quedan <span id="contador-char">1000</span> de 1000 caracteres.</p>
+                <!--pueden cambiar el lenguaje con el parametro hl-->
+                <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
+
+                <div class="inputRecaptcha  g-recaptcha" id="recaptcha" data-sitekey="<?php echo $publicKey; ?>"></div>
+
+                </br>
+                <button class="button btn-animate" type="button" name="enviar" id="enviar">
+                    <span class="submit"><i class="fa fa-paper-plane"></i></span>
+                    <span class="loading"><i class="fa fa-refresh"></i></span>
+                    <span class="check"><i class="fa fa-check"></i></span>
+                    <span class="bad"><i class="fa fa-close"></i></span>
+                </button>
+                <button class='borrar ' type="button" name="limpiar" id="limpiar"><span><i class="fa fa-eraser"></i></span></button>
+            </form>
+        </div>
+    </div>
+    <div class="">
+        <?php
+        // if ($showMessage) {
+        //     echo !$error ? '<div class="bs-example-bg-classes"><p class="bg-success text-center">' . $message . '</p></div>' : '';
+        //     echo $error ? ' <div class="bs-example-bg-classes"><p class="bg-danger text-center">' . $message . '</p></div>' : '';
+        // }
+        ?>
+    </div>
     </div>
 
 
@@ -314,7 +310,5 @@
     <div class="separador5">
     </div>
 </body>
-<mi-footer></mi-footer>
-<mi-cookies></mi-cookies>
 
 </html>

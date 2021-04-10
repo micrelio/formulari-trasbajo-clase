@@ -195,62 +195,63 @@ function validarFormulario() {
   // verificar=false;
   // return false;
   // }
-  else if (!email.value) {
-    $(email).addClass("form-error");
-    $(email).addClass("color-error");
-    setTimeout(function () {
-      //   alert("Escriba su email por favor.");
-    }, 1000);
-    setTimeout(function () {
-      $(email).removeClass("form-error");
-    }, 1000);
-    email.focus();
-    verificar = false;
-    return false;
-  } else if (!expRegEmail.exec(email.value)) {
-    $(email).addClass("form-error");
-    $(email).addClass("color-error");
-    setTimeout(function () {
-      //   alert("Escriba un email valido por favor.");
-    }, 1000);
-    setTimeout(function () {
-      $(email).removeClass("form-error");
-    }, 1000);
-    email.focus();
-    verificar = false;
-    return false;
-  }
+  // else if (!email.value) {
+  //   $(email).addClass("form-error");
+  //   $(email).addClass("color-error");
+  //   setTimeout(function () {
+  //     //   alert("Escriba su email por favor.");
+  //   }, 1000);
+  //   setTimeout(function () {
+  //     $(email).removeClass("form-error");
+  //   }, 1000);
+  //   email.focus();
+  //   verificar = false;
+  //   return false;
+  // } else if (!expRegEmail.exec(email.value)) {
+  //   $(email).addClass("form-error");
+  //   $(email).addClass("color-error");
+  //   setTimeout(function () {
+  //     //   alert("Escriba un email valido por favor.");
+  //   }, 1000);
+  //   setTimeout(function () {
+  //     $(email).removeClass("form-error");
+  //   }, 1000);
+  //   email.focus();
+  //   verificar = false;
+  //   return false;
+  // }
   // else if((webSite.value!="")&& !expRegUrl.exec(webSite.value)){
   // alert("Escriba un formato de sitio web valido por favor.");
   // webSite.focus();
   // verificar=false;
   // return false;
   // }
-  else if (!telefono.value) {
-    $(telefono).addClass("form-error");
-    $(telefono).addClass("color-error");
-    setTimeout(function () {
-      //   alert("Escriba un n\u00famero de tel\u00E9fono por favor.");
-    }, 1000);
-    setTimeout(function () {
-      $(telefono).removeClass("form-error");
-    }, 1000);
-    telefono.focus();
-    verificar = false;
-    return false;
-  } else if (!expRegTelefono.exec(telefono.value)) {
-    $(telefono).addClass("form-error");
-    $(telefono).addClass("color-error");
-    setTimeout(function () {
-      //   alert("el campo tel\u00E9fono admite n\u00FAmeros y espacios en blanco.");
-    }, 1000);
-    setTimeout(function () {
-      $(telefono).removeClass("form-error");
-    }, 1000);
-    telefono.focus();
-    verificar = false;
-    return false;
-  } else if (!comentario.value) {
+  // else if (!telefono.value) {
+  //   $(telefono).addClass("form-error");
+  //   $(telefono).addClass("color-error");
+  //   setTimeout(function () {
+  //     //   alert("Escriba un n\u00famero de tel\u00E9fono por favor.");
+  //   }, 1000);
+  //   setTimeout(function () {
+  //     $(telefono).removeClass("form-error");
+  //   }, 1000);
+  //   telefono.focus();
+  //   verificar = false;
+  //   return false;
+  // } else if (!expRegTelefono.exec(telefono.value)) {
+  //   $(telefono).addClass("form-error");
+  //   $(telefono).addClass("color-error");
+  //   setTimeout(function () {
+  //     //   alert("el campo tel\u00E9fono admite n\u00FAmeros y espacios en blanco.");
+  //   }, 1000);
+  //   setTimeout(function () {
+  //     $(telefono).removeClass("form-error");
+  //   }, 1000);
+  //   telefono.focus();
+  //   verificar = false;
+  //   return false;
+  // } 
+  else if (!comentario.value) {
     $(comentario).addClass("form-error");
     $(comentario).addClass("color-error");
     setTimeout(function () {
