@@ -108,7 +108,7 @@
                 <h1 class='pre'>Actividad cineforum</h1>
 
                 <h2 class='post'>Gracias!</h2>
-                <h1 class='post'>Le contestaré con mayor brevedad posible.</h1>
+                <h1 class='post'>Es hora de escuchar a los MASTERS.</h1>
             </div>
             <form role="form" action="" method="post" id="formulario" name="formulario" class="">
                 <input class="input name" id="nombre" placeholder="&#xf007;  Nombre" type="text" name="Nombre" />

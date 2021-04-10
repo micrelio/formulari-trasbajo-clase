@@ -26,7 +26,7 @@ if ($response != null && $response->success) {
 } else {
 //--si vacio
     if ($_POST) {
-        // echo "ERROR2";
+        echo "ERROR2";
         $showMessage = true;
         $error = true;
         $message = 'Error al enviar el formulario intente de nuevo';
