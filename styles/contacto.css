@@ -121,12 +121,14 @@ p {
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.17);
   border-radius: 0;
   width: 70%;
-  padding: 10px 10px 10px 10px;
+  padding: 50px 20px 50px 20px;
   height: 100%;
-  max-width: 610px;
-  padding: 0;
   -webkit-transition: all 0.2s, max-width 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s, height 0.3s ease 0.25s;
   transition: all 0.2s, max-width 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s, height 0.3s ease 0.25s;
+}
+
+#form-container .seleccion {
+  margin-left: 20px;
 }
 
 #form-close {
@@ -238,7 +240,7 @@ p {
   display: block;
   height: 50px;
   width: 100%;
-  margin: 10px 0;
+  margin: 20px 0px 30px 0px;
   padding: 0 10px;
   border-width: 0;
   -webkit-box-sizing: border-box;
@@ -249,6 +251,27 @@ p {
           box-shadow: none;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+.fieldset {
+  font-family: FontAwesome;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 10px 0px 10px 0px;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+#fieldset .pre {
+  display: block;
+}
+
+#fieldset .post {
+  display: none;
 }
 
 .inputRecaptcha {
@@ -315,12 +338,6 @@ p {
   font-size: 90%;
 }
 
-input,
-select,
-textarea {
-  color: black;
-}
-
 .input.message {
   resize: none;
   height: 150px;
@@ -350,6 +367,11 @@ textarea {
   -webkit-animation: error 0.8s ease;
   animation: error 0.8s ease;
   background: rgba(0, 0, 0, 0.7);
+}
+
+.fieldset.form-error {
+  -webkit-animation: error 0.8s ease;
+  animation: error 0.8s ease;
 }
 
 .inputRecaptcha.form-error {
@@ -393,6 +415,16 @@ select option:disabled {
   transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s, -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 
+.form-submitted .derecha {
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
+  opacity: 0;
+  -webkit-transition: all 0.5s, -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  transition: all 0.5s, -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s, -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
 .form-submitted .input:nth-child(1) {
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
@@ -416,10 +448,6 @@ select option:disabled {
 .form-submitted .input:nth-child(5) {
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
-}
-
-input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0px 1000px black inset;
 }
 
 /*---boton --------------*/

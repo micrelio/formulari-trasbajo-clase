@@ -164,6 +164,203 @@ function validarFormulario() {
     verificar = false;
     return false;
   }
+  var generoso1 = document.getElementById("generoso1");
+  var generoso2 = document.getElementById("generoso2");
+  var generoso3 = document.getElementById("generoso3");
+  var generoso4 = document.getElementById("generoso4");
+  var generoso5 = document.getElementById("generoso5");
+  var generoso = document.getElementById("generoso");
+  if(generoso1.checked || generoso2.checked || generoso3.checked || generoso4.checked || generoso5.checked ){
+  }
+  else {
+    addClassNo();
+    $(generoso).addClass("form-error");
+    $(generoso).addClass("color-error");
+    setTimeout(function () {
+        // alert("Escriba su generososo por favor.");
+    }, 1000);
+    setTimeout(function () {
+      $(generoso).removeClass("form-error");
+    }, 1000);
+    console.log('kakakakak')
+    generoso1.focus();
+    verificar = false;
+    return false;
+  }
+
+  var ayudas1 = document.getElementById("ayudas1");
+  var ayudas2 = document.getElementById("ayudas2");
+  var ayudas3 = document.getElementById("ayudas3");
+  var ayudas4 = document.getElementById("ayudas4");
+  var ayudas5 = document.getElementById("ayudas5");
+  var ayudas = document.getElementById("ayudas");
+  if(ayudas1.checked || ayudas2.checked || ayudas3.checked || ayudas4.checked || ayudas5.checked ){
+  }
+  else {
+    addClassNo();
+    $(ayudas).addClass("form-error");
+    $(ayudas).addClass("color-error");
+    setTimeout(function () {
+        // alert("Escriba su ayudasso por favor.");
+    }, 1000);
+    setTimeout(function () {
+      $(ayudas).removeClass("form-error");
+    }, 1000);
+    console.log('kakakakak')
+    ayudas1.focus();
+    verificar = false;
+    return false;
+  }
+
+
+  var humilde1 = document.getElementById("humilde1");
+  var humilde2 = document.getElementById("humilde2");
+  var humilde3 = document.getElementById("humilde3");
+  var humilde4 = document.getElementById("humilde4");
+  var humilde5 = document.getElementById("humilde5");
+  var humilde = document.getElementById("humilde");
+  if(humilde1.checked || humilde2.checked || humilde3.checked || humilde4.checked || humilde5.checked ){
+  }
+  else {
+    addClassNo();
+    $(humilde).addClass("form-error");
+    $(humilde).addClass("color-error");
+    setTimeout(function () {
+        // alert("Escriba su humildeso por favor.");
+    }, 1000);
+    setTimeout(function () {
+      $(humilde).removeClass("form-error");
+    }, 1000);
+    console.log('kakakakak')
+    humilde1.focus();
+    verificar = false;
+    return false;
+  }
+
+
+  var Conductas1 = document.getElementById("Conductas1");
+  var Conductas2 = document.getElementById("Conductas2");
+  var Conductas3 = document.getElementById("Conductas3");
+  var Conductas4 = document.getElementById("Conductas4");
+  var Conductas5 = document.getElementById("Conductas5");
+  var Conductas = document.getElementById("Conductas");
+  if(Conductas1.checked || Conductas2.checked || Conductas3.checked || Conductas4.checked || Conductas5.checked ){
+  }
+  else {
+    addClassNo();
+    $(Conductas).addClass("form-error");
+    $(Conductas).addClass("color-error");
+    setTimeout(function () {
+        // alert("Escriba su Conductasso por favor.");
+    }, 1000);
+    setTimeout(function () {
+      $(Conductas).removeClass("form-error");
+    }, 1000);
+    console.log('kakakakak')
+    Conductas1.focus();
+    verificar = false;
+    return false;
+  }
+
+
+  var voluntariado1 = document.getElementById("voluntariado1");
+  var voluntariado2 = document.getElementById("voluntariado2");
+  var voluntariado3 = document.getElementById("voluntariado3");
+  var voluntariado4 = document.getElementById("voluntariado4");
+  var voluntariado5 = document.getElementById("voluntariado5");
+  var voluntariado = document.getElementById("voluntariado");
+  if(voluntariado1.checked || voluntariado2.checked || voluntariado3.checked || voluntariado4.checked || voluntariado5.checked ){
+  }
+  else {
+    addClassNo();
+    $(voluntariado).addClass("form-error");
+    $(voluntariado).addClass("color-error");
+    setTimeout(function () {
+        // alert("Escriba su voluntariadoso por favor.");
+    }, 1000);
+    setTimeout(function () {
+      $(voluntariado).removeClass("form-error");
+    }, 1000);
+    console.log('kakakakak')
+    voluntariado1.focus();
+    verificar = false;
+    return false;
+  }
+
+
+  var club1 = document.getElementById("club1");
+  var club2 = document.getElementById("club2");
+  var club3 = document.getElementById("club3");
+  var club4 = document.getElementById("club4");
+  var club5 = document.getElementById("club5");
+  var club = document.getElementById("club");
+  if(club1.checked || club2.checked || club3.checked || club4.checked || club5.checked ){
+  }
+  else {
+    addClassNo();
+    $(club).addClass("form-error");
+    $(club).addClass("color-error");
+    setTimeout(function () {
+        // alert("Escriba su clubso por favor.");
+    }, 1000);
+    setTimeout(function () {
+      $(club).removeClass("form-error");
+    }, 1000);
+    console.log('kakakakak')
+    club1.focus();
+    verificar = false;
+    return false;
+  }
+
+
+  var valores1 = document.getElementById("valores1");
+  var valores2 = document.getElementById("valores2");
+  var valores3 = document.getElementById("valores3");
+  var valores4 = document.getElementById("valores4");
+  var valores5 = document.getElementById("valores5");
+  var valores = document.getElementById("valores");
+  if(valores1.checked || valores2.checked || valores3.checked || valores4.checked || valores5.checked ){
+  }
+  else {
+    addClassNo();
+    $(valores).addClass("form-error");
+    $(valores).addClass("color-error");
+    setTimeout(function () {
+        // alert("Escriba su valoresso por favor.");
+    }, 1000);
+    setTimeout(function () {
+      $(valores).removeClass("form-error");
+    }, 1000);
+    console.log('kakakakak')
+    valores1.focus();
+    verificar = false;
+    return false;
+  }
+  
+
+  var catastrofe1 = document.getElementById("catastrofe1");
+  var catastrofe2 = document.getElementById("catastrofe2");
+  var catastrofe3 = document.getElementById("catastrofe3");
+  var catastrofe4 = document.getElementById("catastrofe4");
+  var catastrofe5 = document.getElementById("catastrofe5");
+  var catastrofe = document.getElementById("catastrofe");
+  if(catastrofe1.checked || catastrofe2.checked || catastrofe3.checked || catastrofe4.checked || catastrofe5.checked ){
+  }
+  else {
+    addClassNo();
+    $(catastrofe).addClass("form-error");
+    $(catastrofe).addClass("color-error");
+    setTimeout(function () {
+        // alert("Escriba su catastrofeso por favor.");
+    }, 1000);
+    setTimeout(function () {
+      $(catastrofe).removeClass("form-error");
+    }, 1000);
+    console.log('kakakakak')
+    catastrofe1.focus();
+    verificar = false;
+    return false;
+  }
   //PARA PONER NOMBRE Y APELLIDOS
   // else if(nombre.value.split(" ").length < 2){
   // alert("Esciba sus nombre completos por favor.");
@@ -251,7 +448,7 @@ function validarFormulario() {
   //   verificar = false;
   //   return false;
   // } 
-  else if (!comentario.value) {
+   if (!comentario.value) {
     $(comentario).addClass("form-error");
     $(comentario).addClass("color-error");
     setTimeout(function () {
@@ -276,6 +473,8 @@ function validarFormulario() {
     verificar = false;
     return false;
   }
+
+
   var response = grecaptcha.getResponse();
   if (response.length == 0) {
     //   alert("Captcha no verificado");
@@ -292,16 +491,22 @@ function validarFormulario() {
     verificar = false;
     return false;
   }
-  // else {
-  //   alert("Captcha verificado");
-  // }
+  else {
+    // alert("Captcha verificado");
+  }
+
   if (verificar == true) {
     toggleClass();
     enviar.addEventListener("transitionend", addClassOk);
     $("body").addClass("form-submitted");
     $("#form-head").addClass("form-submitted");
     setTimeout(function () {
+      href="#";
+    }, 3500);
+    setTimeout(function () {
       document.formulario.submit();
+             alert("Gracias por participar");
+
     }, 3500);
     // $(form).trigger("reset");
     // setTimeout(function () {
@@ -317,7 +522,6 @@ function calcular() {
     1000 - document.formulario.comentario.value.length);
 }
 window.onload = function () {
-  console.log("pepepepepepe");
   var botonEnviar = document.getElementById("enviar");
   botonEnviar.onclick = validarFormulario;
   var botonLimpiar = document.getElementById("limpiar");
