@@ -134,7 +134,7 @@
                     </label>
                 </fieldset>
                 <br>
-                <fieldset class="fieldset derecha" id="ayudas"> 
+                <fieldset class="fieldset derecha" id="ayudas">
                     <legend> ¿Con qué frecuencia ayudas a tus vecinos? </legend>
                     <label>
                         <input class="seleccion" id="ayudas1" type="radio" name="ayudas" value="1"> 1
@@ -153,7 +153,7 @@
                     </label>
                 </fieldset>
                 <br>
-                <fieldset class="fieldset derecha"  id="humilde">
+                <fieldset class="fieldset derecha" id="humilde">
                     <legend> ¿Eres una persona humilde? </legend>
                     <label>
                         <input class="seleccion" id="humilde1" type="radio" name="humilde" value="1"> 1
@@ -232,19 +232,19 @@
                 <fieldset class="fieldset derecha" id="valores">
                     <legend> ¿Cuáles son los valores que más destacas en el ser humano? </legend>
                     <label>
-                        <input class="seleccion"  id="valores1" type="radio" name="valores" value="1"> 1
+                        <input class="seleccion" id="valores1" type="radio" name="valores" value="1"> 1
                     </label>
                     <label>
-                        <input class="seleccion"  id="valores2" type="radio" name="valores" value="2"> 2
+                        <input class="seleccion" id="valores2" type="radio" name="valores" value="2"> 2
                     </label>
                     <label>
-                        <input class="seleccion"  id="valores3" type="radio" name="valores" value="3"> 3
+                        <input class="seleccion" id="valores3" type="radio" name="valores" value="3"> 3
                     </label>
                     <label>
-                        <input class="seleccion"  id="valores4" type="radio" name="valores" value="4"> 4
+                        <input class="seleccion" id="valores4" type="radio" name="valores" value="4"> 4
                     </label>
                     <label>
-                        <input class="seleccion"  id="valores5" type="radio" name="valores" value="5"> 5
+                        <input class="seleccion" id="valores5" type="radio" name="valores" value="5"> 5
                     </label>
                 </fieldset>
                 <br>

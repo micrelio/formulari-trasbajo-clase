@@ -1,5 +1,5 @@
 <?php
- $showMessage = false;
+$showMessage = false;
 if ($response != null && $response->success) {
     $showMessage = true;
     // a quien se envia el email
@@ -16,7 +16,7 @@ if ($response != null && $response->success) {
     }
     if (mail($to, $subject, $body, $headers)) {
         $error = false;
-         echo "ENVIADO";
+        echo "ENVIADO";
         $message = 'Enviado con exito';
     } else {
         echo "ERROR1";
@@ -24,7 +24,7 @@ if ($response != null && $response->success) {
         $message = 'Error al enviar el email';
     }
 } else {
-//--si vacio
+    //--si vacio
     if ($_POST) {
         // echo "ERROR2";
         $showMessage = true;
@@ -32,4 +32,3 @@ if ($response != null && $response->success) {
         $message = 'Error al enviar el formulario intente de nuevo';
     }
 }
-?>

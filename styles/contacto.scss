@@ -109,12 +109,11 @@ p {
   cursor: pointer;
   color: black;
   // z-index: 1000;
- 
+
   top: 0px;
   background-color: #f72f4e;
   // overflow: auto;
   border-radius: 50%;
- 
 
   display: flex;
   flex-direction: column;
@@ -130,9 +129,9 @@ p {
   // padding: 0;
   transition: all 0.2s, max-width 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s,
     height 0.3s ease 0.25s;
-    .seleccion{
-      margin-left: 20px;
-    }
+  .seleccion {
+    margin-left: 20px;
+  }
 }
 #form-close {
   cursor: pointer;
@@ -206,7 +205,6 @@ p {
 }
 .form-submitted#form-head {
   transform: translateY(250%);
- 
 }
 .form-submitted#form-head .pre {
   display: none;
@@ -245,12 +243,13 @@ p {
   box-shadow: none;
   transform: translateX(0);
 }
-#fieldset .pre {
-  display: block;
+legend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-#fieldset .post {
-  display: none;
-}
+
 .inputRecaptcha {
   font-family: FontAwesome;
   // background: rgba(0, 0, 0, 0.2);
@@ -358,12 +357,12 @@ select option:disabled {
 .input {
   transition: transform 0s 1s;
 }
-.form-submitted .input{
+.form-submitted .input {
   transform: translateX(150%);
   opacity: 0;
   transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
-.form-submitted .derecha{
+.form-submitted .derecha {
   transform: translateX(150%);
   opacity: 0;
   transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
@@ -384,10 +383,9 @@ select option:disabled {
   transition-delay: 0.5s;
 }
 input:-webkit-autofill {
-    // background-color: rgba(0, 0, 0, 0.2);
+  // background-color: rgba(0, 0, 0, 0.2);
 
   // -webkit-box-shadow: 0 0 0px 1000px rgba(0, 0, 0, 0.7) inset;
-  
 }
 /*---boton --------------*/
 $base-duration: 500ms;

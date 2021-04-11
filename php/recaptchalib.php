@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This is a PHP library that handles calling reCAPTCHA.
  *    - Documentation and latest version
@@ -41,7 +42,7 @@ class ReCaptcha
 {
     private static $_signupUrl = "https://www.google.com/recaptcha/admin";
     private static $_siteVerifyUrl =
-        "https://www.google.com/recaptcha/api/siteverify?";
+    "https://www.google.com/recaptcha/api/siteverify?";
     private $_secret;
     private static $_version = "php_1.0";
     /**
@@ -55,7 +56,7 @@ class ReCaptcha
             die("To use reCAPTCHA you must get an API key from <a href='"
                 . self::$_signupUrl . "'>" . self::$_signupUrl . "</a>");
         }
-        $this->_secret=$secret;
+        $this->_secret = $secret;
     }
     /**
      * Encodes the given data into a query string format.
@@ -71,7 +72,7 @@ class ReCaptcha
             $req .= $key . '=' . urlencode(stripslashes($value)) . '&';
         }
         // Cut the last '&'
-        $req=substr($req, 0, strlen($req)-1);
+        $req = substr($req, 0, strlen($req) - 1);
         return $req;
     }
     /**
@@ -108,7 +109,7 @@ class ReCaptcha
         }
         $getResponse = $this->_submitHttpGet(
             self::$_siteVerifyUrl,
-            array (
+            array(
                 'secret' => $this->_secret,
                 'remoteip' => $remoteIp,
                 'v' => self::$_version,
@@ -117,11 +118,11 @@ class ReCaptcha
         );
         $answers = json_decode($getResponse, true);
         $recaptchaResponse = new ReCaptchaResponse();
-        if (trim($answers ['success']) == true) {
+        if (trim($answers['success']) == true) {
             $recaptchaResponse->success = true;
         } else {
             $recaptchaResponse->success = false;
-            $recaptchaResponse->errorCodes = $answers [error-codes];
+            $recaptchaResponse->errorCodes = $answers[error - codes];
         }
         return $recaptchaResponse;
     }

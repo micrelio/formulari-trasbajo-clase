@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: juliomorales
@@ -20,4 +21,3 @@ if ($_POST["g-recaptcha-response"]) {
         $_POST["g-recaptcha-response"]
     );
 }
-  ?>
