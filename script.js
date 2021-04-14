@@ -255,6 +255,7 @@ function validarFormulario() {
 
   var voluntariadosi = document.getElementById("voluntariadosi");
   var voluntariadono = document.getElementById("voluntariadono");
+  var voluntariado = document.getElementById("voluntariado");
   if (
     voluntariadosi.checked ||
     voluntariadono.checked 
@@ -276,17 +277,15 @@ function validarFormulario() {
 
  
   var catastrofeSi = document.getElementById("catastrofeSi");
-  var catastrofeNo = document.getElementById("catastrofeno");
-   if (
-    catastrofeSi.checked ||
-    catastrofeNo.checked 
-  ) {
+  var catastrofeNo = document.getElementById("catastrofeNo");
+  var catastrofe = document.getElementById("catastrofe");
+   if (catastrofeSi.checked || catastrofeNo.checked ) {
   } else {
     addClassNo();
     $(catastrofe).addClass("form-error");
     $(catastrofe).addClass("color-error");
     setTimeout(function () {
-      // alert("Escriba su catastrofeso por favor.");
+      //  alert("Escriba su catastrofe por favor.");
     }, 1000);
     setTimeout(function () {
       $(catastrofe).removeClass("form-error");
