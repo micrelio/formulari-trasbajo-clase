@@ -297,18 +297,18 @@ function validarFormulario() {
 
 
 
-  var valores1 = document.getElementById("valores1");
-  var valores2 = document.getElementById("valores2");
-  var valores3 = document.getElementById("valores3");
-  var valores4 = document.getElementById("valores4");
-  var valores5 = document.getElementById("valores5");
+  var empatia = document.getElementById("empatia");
+  var solidaridad = document.getElementById("solidaridad");
+  var honestidad = document.getElementById("honestidad");
+  var amor = document.getElementById("amor");
+  var valor = document.getElementById("valor");
   var valores = document.getElementById("valores");
   if (
-    valores1.checked ||
-    valores2.checked ||
-    valores3.checked ||
-    valores4.checked ||
-    valores5.checked
+    empatia.checked ||
+    solidaridad.checked ||
+    honestidad.checked ||
+    amor.checked ||
+    valor.checked
   ) {
   } else {
     addClassNo();
@@ -321,7 +321,7 @@ function validarFormulario() {
       $(valores).removeClass("form-error");
     }, 1000);
     console.log("kakakakak");
-    valores1.focus();
+    empatia.focus();
     verificar = false;
     return false;
   }

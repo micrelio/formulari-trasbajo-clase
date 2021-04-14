@@ -267,19 +267,17 @@ p {
 }
 
 legend {
+  text-align: left;
+}
+
+.vertical {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .inputRecaptcha {
@@ -350,6 +348,7 @@ legend {
   resize: none;
   height: 150px;
   padding: 10px;
+  border: 1px solid silver;
 }
 
 .input.submit {
@@ -401,7 +400,6 @@ select option {
 }
 
 select option:disabled {
-  font-style: italic;
   color: rgba(255, 255, 255, 0.9);
   font-size: 90%;
 }
@@ -423,7 +421,7 @@ select option:disabled {
   transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s, -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 
-.form-submitted .derecha {
+.form-submitted .salida {
   -webkit-transform: translateX(150%);
           transform: translateX(150%);
   opacity: 0;

@@ -109,12 +109,10 @@ p {
   cursor: pointer;
   color: black;
   // z-index: 1000;
-
   top: 0px;
   background-color: #f72f4e;
   // overflow: auto;
   border-radius: 50%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,6 +131,9 @@ p {
     margin-left: 20px;
   }
 }
+
+
+
 #form-close {
   cursor: pointer;
 }
@@ -244,10 +245,13 @@ p {
   transform: translateX(0);
 }
 legend {
+  // text-align: center;
+  text-align: left ;
+
+}
+.vertical{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .inputRecaptcha {
@@ -312,6 +316,7 @@ textarea {
   resize: none;
   height: 150px;
   padding: 10px;
+  border: 1px solid silver;
 }
 .input.submit {
   background-color: black;
@@ -350,7 +355,7 @@ select option {
   outline: none;
 }
 select option:disabled {
-  font-style: italic;
+  // font-style: italic;
   color: rgba(255, 255, 255, 0.9);
   font-size: 90%;
 }
@@ -362,7 +367,7 @@ select option:disabled {
   opacity: 0;
   transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
-.form-submitted .derecha {
+.form-submitted .salida {
   transform: translateX(150%);
   opacity: 0;
   transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;

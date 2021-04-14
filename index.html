@@ -116,8 +116,9 @@
                 <!-- <input type="text"  name="direccion" id="direccion"/><br/>
                 <input type="text"  name="pais" id="pais"/><br/>
                 <input type="text"  name="web-site" id="web-site"/><br/> -->
-                <fieldset class="fieldset derecha" id="generoso">
-                    <legend> ¿Te consideras generoso? </legend>
+                <fieldset class="fieldset salida horizontal" id="generoso">
+                    <legend>  ¿Te consideras generoso? </legend>
+                    <div>
                     <label>
                         <input class="seleccion" id="generoso1" type="radio" name="¿Te consideras generoso?" value="1">
                         1
@@ -138,10 +139,12 @@
                         <input class="seleccion" id="generoso5" type="radio" name="¿Te consideras generoso?" value="5">
                         5
                     </label>
+                </div>
                 </fieldset>
                 <br>
-                <fieldset class="fieldset derecha" id="ayudas">
+                <fieldset class="fieldset salida" id="ayudas">
                     <legend> ¿Con qué frecuencia ayudas a tus vecinos? </legend>
+                <div>
                     <label>
                         <input class="seleccion" id="ayudas1" type="radio"
                             name="¿Con qué frecuencia ayudas a tus vecinos?" value="1"> 1
@@ -162,10 +165,12 @@
                         <input class="seleccion" id="ayudas5" type="radio"
                             name="¿Con qué frecuencia ayudas a tus vecinos?" value="5"> 5
                     </label>
+                </div>
                 </fieldset>
                 <br>
-                <fieldset class="fieldset derecha" id="humilde">
+                <fieldset class="fieldset salida" id="humilde">
                     <legend> ¿Eres una persona humilde? </legend>
+                <div>
                     <label>
                         <input class="seleccion" id="humilde1" type="radio" name="¿Eres una persona humilde?" value="1">
                         1
@@ -186,11 +191,13 @@
                         <input class="seleccion" id="humilde5" type="radio" name="¿Eres una persona humilde?" value="5">
                         5
                     </label>
+                </div>
                 </fieldset>
                 <br>
 
-                <fieldset class="fieldset derecha" id="voluntariado">
+                <fieldset class="fieldset salida" id="voluntariado">
                     <legend> ¿Haces algún tipo de trabajo social? </legend>
+                <div class="vertical">
                     <label>
                         <input class="seleccion" id="voluntariadosi" type="radio"
                             name="¿Haces algún tipo de trabajo social?" value="Si"> Sí
@@ -199,11 +206,13 @@
                         <input class="seleccion" id="voluntariadono" type="radio"
                             name="¿Haces algún tipo de trabajo social?" value="No"> No
                     </label>
+                </div>
                 </fieldset>
                 <br>
 
-                <fieldset class="fieldset derecha" id="catastrofe">
+                <fieldset class="fieldset salida" id="catastrofe">
                     <legend> ¿Has vivido a alguna catástrofe natural de cerca? </legend>
+                <div class="vertical">
                     <label>
                         <input class="seleccion" id="catastrofeSi" type="radio"
                             name="¿Has vivido a alguna catástrofe natural de cerca?" value="Si"> Sí
@@ -212,35 +221,38 @@
                         <input class="seleccion" id="catastrofeNo" type="radio"
                             name="¿Has vivido a alguna catástrofe natural de cerca?" value="No"> No
                     </label>
+                </div>
                 </fieldset>
                 <br>
                 <br>
-                <fieldset class="fieldset derecha" id="valores">
+                <fieldset class="fieldset salida" id="valores">
                     <legend> ¿Cuáles son los valores que más destacas en el ser humano? </legend>
+                <div class="vertical">
                     <label>
-                        <input class="seleccion" id="valores1" type="radio"
-                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="1"> 1
+                        <input class="seleccion" id="empatia" type="radio"
+                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="empatia"> Empatía
                     </label>
                     <label>
-                        <input class="seleccion" id="valores2" type="radio"
-                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="2"> 2
+                        <input class="seleccion" id="solidaridad" type="radio"
+                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="solidaridad"> Solidaridad
                     </label>
                     <label>
-                        <input class="seleccion" id="valores3" type="radio"
-                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="3"> 3
+                        <input class="seleccion" id="honestidad" type="radio"
+                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="honestidad"> Honestidad
                     </label>
                     <label>
                         <input class="seleccion" id="valores4" type="radio"
-                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="4"> 4
+                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="amor"> Amor
                     </label>
                     <label>
                         <input class="seleccion" id="valores5" type="radio"
-                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="5"> 5
+                            name="¿Cuáles son los valores que más destacas en el ser humano?" value="valor"> Valor
                     </label>
+                </div>
                 </fieldset>
                 <br>
 
-                <legend class="derecha"> ¿De qué forma actuarías en una situación similar? </legend>
+                <legend class="salida"> ¿De qué forma actuarías en una situación similar? </legend>
                 <textarea class="input message" placeholder="&#xf0e5;  Mensaje" rows="10" cols="40" maxlength="1000"
                     id="comentario" name="comentario" onkeypress="calcular()" onkeyup="calcular()"></textarea>
                 <p>Le quedan <span id="contador-char">1000</span> de 1000 caracteres.</p>
