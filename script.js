@@ -251,47 +251,13 @@ function validarFormulario() {
     return false;
   }
 
-  var Conductas1 = document.getElementById("Conductas1");
-  var Conductas2 = document.getElementById("Conductas2");
-  var Conductas3 = document.getElementById("Conductas3");
-  var Conductas4 = document.getElementById("Conductas4");
-  var Conductas5 = document.getElementById("Conductas5");
-  var Conductas = document.getElementById("Conductas");
-  if (
-    Conductas1.checked ||
-    Conductas2.checked ||
-    Conductas3.checked ||
-    Conductas4.checked ||
-    Conductas5.checked
-  ) {
-  } else {
-    addClassNo();
-    $(Conductas).addClass("form-error");
-    $(Conductas).addClass("color-error");
-    setTimeout(function () {
-      // alert("Escriba su Conductasso por favor.");
-    }, 1000);
-    setTimeout(function () {
-      $(Conductas).removeClass("form-error");
-    }, 1000);
-    console.log("kakakakak");
-    Conductas1.focus();
-    verificar = false;
-    return false;
-  }
+ 
 
-  var voluntariado1 = document.getElementById("voluntariado1");
-  var voluntariado2 = document.getElementById("voluntariado2");
-  var voluntariado3 = document.getElementById("voluntariado3");
-  var voluntariado4 = document.getElementById("voluntariado4");
-  var voluntariado5 = document.getElementById("voluntariado5");
-  var voluntariado = document.getElementById("voluntariado");
+  var voluntariadosi = document.getElementById("voluntariadosi");
+  var voluntariadono = document.getElementById("voluntariadono");
   if (
-    voluntariado1.checked ||
-    voluntariado2.checked ||
-    voluntariado3.checked ||
-    voluntariado4.checked ||
-    voluntariado5.checked
+    voluntariadosi.checked ||
+    voluntariadono.checked 
   ) {
   } else {
     addClassNo();
@@ -303,40 +269,34 @@ function validarFormulario() {
     setTimeout(function () {
       $(voluntariado).removeClass("form-error");
     }, 1000);
-    console.log("kakakakak");
-    voluntariado1.focus();
+    voluntariadosi.focus();
     verificar = false;
     return false;
   }
 
-  var club1 = document.getElementById("club1");
-  var club2 = document.getElementById("club2");
-  var club3 = document.getElementById("club3");
-  var club4 = document.getElementById("club4");
-  var club5 = document.getElementById("club5");
-  var club = document.getElementById("club");
-  if (
-    club1.checked ||
-    club2.checked ||
-    club3.checked ||
-    club4.checked ||
-    club5.checked
+ 
+  var catastrofeSi = document.getElementById("catastrofeSi");
+  var catastrofeNo = document.getElementById("catastrofeno");
+   if (
+    catastrofeSi.checked ||
+    catastrofeNo.checked 
   ) {
   } else {
     addClassNo();
-    $(club).addClass("form-error");
-    $(club).addClass("color-error");
+    $(catastrofe).addClass("form-error");
+    $(catastrofe).addClass("color-error");
     setTimeout(function () {
-      // alert("Escriba su clubso por favor.");
+      // alert("Escriba su catastrofeso por favor.");
     }, 1000);
     setTimeout(function () {
-      $(club).removeClass("form-error");
+      $(catastrofe).removeClass("form-error");
     }, 1000);
-    console.log("kakakakak");
-    club1.focus();
+    catastrofeSi.focus();
     verificar = false;
     return false;
   }
+
+
 
   var valores1 = document.getElementById("valores1");
   var valores2 = document.getElementById("valores2");
@@ -367,34 +327,7 @@ function validarFormulario() {
     return false;
   }
 
-  var catastrofe1 = document.getElementById("catastrofe1");
-  var catastrofe2 = document.getElementById("catastrofe2");
-  var catastrofe3 = document.getElementById("catastrofe3");
-  var catastrofe4 = document.getElementById("catastrofe4");
-  var catastrofe5 = document.getElementById("catastrofe5");
-  var catastrofe = document.getElementById("catastrofe");
-  if (
-    catastrofe1.checked ||
-    catastrofe2.checked ||
-    catastrofe3.checked ||
-    catastrofe4.checked ||
-    catastrofe5.checked
-  ) {
-  } else {
-    addClassNo();
-    $(catastrofe).addClass("form-error");
-    $(catastrofe).addClass("color-error");
-    setTimeout(function () {
-      // alert("Escriba su catastrofeso por favor.");
-    }, 1000);
-    setTimeout(function () {
-      $(catastrofe).removeClass("form-error");
-    }, 1000);
-    console.log("kakakakak");
-    catastrofe1.focus();
-    verificar = false;
-    return false;
-  }
+
   //PARA PONER NOMBRE Y APELLIDOS
   // else if(nombre.value.split(" ").length < 2){
   // alert("Esciba sus nombre completos por favor.");

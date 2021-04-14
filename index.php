@@ -119,158 +119,102 @@
                 <fieldset class="fieldset derecha" id="generoso">
                     <legend> ¿Te consideras generoso? </legend>
                     <label>
-                        <input class="seleccion" id="generoso1" type="radio" name="generoso" value="1"> 1
+                        <input class="seleccion" id="generoso1" type="radio" name="¿Te consideras generoso?" value="1"> 1
                     </label>
                     <label>
-                        <input class="seleccion" id="generoso2" type="radio" name="generoso" value="2"> 2
+                        <input class="seleccion" id="generoso2" type="radio" name="¿Te consideras generoso?" value="2"> 2
                     </label>
                     <label>
-                        <input class="seleccion" id="generoso3" type="radio" name="generoso" value="3"> 3
+                        <input class="seleccion" id="generoso3" type="radio" name="¿Te consideras generoso?" value="3"> 3
                     </label>
                     <label>
-                        <input class="seleccion" id="generoso4" type="radio" name="generoso" value="4"> 4
+                        <input class="seleccion" id="generoso4" type="radio" name="¿Te consideras generoso?" value="4"> 4
                     </label>
                     <label>
-                        <input class="seleccion" id="generoso5" type="radio" name="generoso" value="5"> 5
+                        <input class="seleccion" id="generoso5" type="radio" name="¿Te consideras generoso?" value="5"> 5
                     </label>
                 </fieldset>
                 <br>
                 <fieldset class="fieldset derecha" id="ayudas">
                     <legend> ¿Con qué frecuencia ayudas a tus vecinos? </legend>
                     <label>
-                        <input class="seleccion" id="ayudas1" type="radio" name="ayudas" value="1"> 1
+                        <input class="seleccion" id="ayudas1" type="radio" name="¿Con qué frecuencia ayudas a tus vecinos?" value="1"> 1
                     </label>
                     <label>
-                        <input class="seleccion" id="ayudas2" type="radio" name="ayudas" value="2"> 2
+                        <input class="seleccion" id="ayudas2" type="radio" name="¿Con qué frecuencia ayudas a tus vecinos?" value="2"> 2
                     </label>
                     <label>
-                        <input class="seleccion" id="ayudas3" type="radio" name="ayudas" value="3"> 3
+                        <input class="seleccion" id="ayudas3" type="radio" name="¿Con qué frecuencia ayudas a tus vecinos?" value="3"> 3
                     </label>
                     <label>
-                        <input class="seleccion" id="ayudas4" type="radio" name="ayudas" value="4"> 4
+                        <input class="seleccion" id="ayudas4" type="radio" name="¿Con qué frecuencia ayudas a tus vecinos?" value="4"> 4
                     </label>
                     <label>
-                        <input class="seleccion" id="ayudas5" type="radio" name="ayudas" value="5"> 5
+                        <input class="seleccion" id="ayudas5" type="radio" name="¿Con qué frecuencia ayudas a tus vecinos?" value="5"> 5
                     </label>
                 </fieldset>
                 <br>
                 <fieldset class="fieldset derecha" id="humilde">
                     <legend> ¿Eres una persona humilde? </legend>
                     <label>
-                        <input class="seleccion" id="humilde1" type="radio" name="humilde" value="1"> 1
+                        <input class="seleccion" id="humilde1" type="radio" name="¿Eres una persona humilde?" value="1"> 1
                     </label>
                     <label>
-                        <input class="seleccion" id="humilde2" type="radio" name="humilde" value="2"> 2
+                        <input class="seleccion" id="humilde2" type="radio" name="¿Eres una persona humilde?" value="2"> 2
                     </label>
                     <label>
-                        <input class="seleccion" id="humilde3" type="radio" name="humilde" value="3"> 3
+                        <input class="seleccion" id="humilde3" type="radio" name="¿Eres una persona humilde?" value="3"> 3
                     </label>
                     <label>
-                        <input class="seleccion" id="humilde4" type="radio" name="humilde" value="4"> 4
+                        <input class="seleccion" id="humilde4" type="radio" name="¿Eres una persona humilde?" value="4"> 4
                     </label>
                     <label>
-                        <input class="seleccion" id="humilde5" type="radio" name="humilde" value="5"> 5
+                        <input class="seleccion" id="humilde5" type="radio" name="¿Eres una persona humilde?" value="5"> 5
                     </label>
                 </fieldset>
                 <br>
-                <fieldset class="fieldset derecha" id="Conductas">
-                    <legend> Conductas, comportamientos, actitudes frente a la vida </legend>
-                    <label>
-                        <input class="seleccion" id="Conductas1" type="radio" name="conductas" value="1"> 1
-                    </label>
-                    <label>
-                        <input class="seleccion" id="Conductas2" type="radio" name="conductas" value="2"> 2
-                    </label>
-                    <label>
-                        <input class="seleccion" id="Conductas3" type="radio" name="conductas" value="3"> 3
-                    </label>
-                    <label>
-                        <input class="seleccion" id="Conductas4" type="radio" name="conductas" value="4"> 4
-                    </label>
-                    <label>
-                        <input class="seleccion" id="Conductas5" type="radio" name="conductas" value="5"> 5
-                    </label>
-                </fieldset>
-                <br>
+
                 <fieldset class="fieldset derecha" id="voluntariado">
-                    <legend> Si haces algún tipo de voluntariado social, ¿cuánto tiempo le dedicas al voluntariado?
-                    </legend>
+                    <legend> ¿Haces algún tipo de trabajo social? </legend>
                     <label>
-                        <input class="seleccion" id="voluntariado1" type="radio" name="voluntariado" value="1"> 1
+                        <input class="seleccion" id="voluntariadosi" type="radio" name="¿Haces algún tipo de trabajo social?" value="Si"> Sí
                     </label>
                     <label>
-                        <input class="seleccion" id="voluntariado2" type="radio" name="voluntariado" value="2"> 2
-                    </label>
-                    <label>
-                        <input class="seleccion" id="voluntariado3" type="radio" name="voluntariado" value="3"> 3
-                    </label>
-                    <label>
-                        <input class="seleccion" id="voluntariado4" type="radio" name="voluntariado" value="4"> 4
-                    </label>
-                    <label>
-                        <input class="seleccion" id="voluntariado5" type="radio" name="voluntariado" value="5"> 5
+                        <input class="seleccion" id="voluntariadono" type="radio" name="¿Haces algún tipo de trabajo social?" value="No"> No
                     </label>
                 </fieldset>
                 <br>
-                <fieldset class="fieldset derecha" id="club">
-                    <legend> ¿Perteneces a algún club social? </legend>
+   
+                <fieldset class="fieldset derecha" id="catastrofe">
+                    <legend> ¿Has vivido a alguna catástrofe natural de cerca? </legend>
                     <label>
-                        <input class="seleccion" id="club1" type="radio" name="club social" value="1"> 1
+                        <input class="seleccion" id="catastrofeSi" type="radio" name="¿Has vivido a alguna catástrofe natural de cerca?" value="Si"> Sí
                     </label>
                     <label>
-                        <input class="seleccion" id="club2" type="radio" name="club social" value="2"> 2
+                        <input class="seleccion" id="catastrofeNo" type="radio" name="¿Has vivido a alguna catástrofe natural de cerca?" value="No"> No
                     </label>
-                    <label>
-                        <input class="seleccion" id="club3" type="radio" name="club social" value="3"> 3
-                    </label>
-                    <label>
-                        <input class="seleccion" id="club4" type="radio" name="club social" value="4"> 4
-                    </label>
-                    <label>
-                        <input class="seleccion" id="club5" type="radio" name="club social" value="5"> 5
-                    </label>
-                </fieldset>
+                               </fieldset>
+                <br>
                 <br>
                 <fieldset class="fieldset derecha" id="valores">
                     <legend> ¿Cuáles son los valores que más destacas en el ser humano? </legend>
                     <label>
-                        <input class="seleccion" id="valores1" type="radio" name="valores" value="1"> 1
+                        <input class="seleccion" id="valores1" type="radio" name="¿Cuáles son los valores que más destacas en el ser humano?" value="1"> 1
                     </label>
                     <label>
-                        <input class="seleccion" id="valores2" type="radio" name="valores" value="2"> 2
+                        <input class="seleccion" id="valores2" type="radio" name="¿Cuáles son los valores que más destacas en el ser humano?" value="2"> 2
                     </label>
                     <label>
-                        <input class="seleccion" id="valores3" type="radio" name="valores" value="3"> 3
+                        <input class="seleccion" id="valores3" type="radio" name="¿Cuáles son los valores que más destacas en el ser humano?" value="3"> 3
                     </label>
                     <label>
-                        <input class="seleccion" id="valores4" type="radio" name="valores" value="4"> 4
+                        <input class="seleccion" id="valores4" type="radio" name="¿Cuáles son los valores que más destacas en el ser humano?" value="4"> 4
                     </label>
                     <label>
-                        <input class="seleccion" id="valores5" type="radio" name="valores" value="5"> 5
+                        <input class="seleccion" id="valores5" type="radio" name="¿Cuáles son los valores que más destacas en el ser humano?" value="5"> 5
                     </label>
                 </fieldset>
                 <br>
-                <fieldset class="fieldset derecha" id="catastrofe">
-                    <legend> ¿Has vivido a alguna catástrofe natural de cerca? </legend>
-                    <label>
-                        <input class="seleccion" id="catastrofe1" type="radio" name="catastrofe natural" value="1"> 1
-                    </label>
-                    <label>
-                        <input class="seleccion" id="catastrofe2" type="radio" name="catastrofe natural" value="2"> 2
-                    </label>
-                    <label>
-                        <input class="seleccion" id="catastrofe3" type="radio" name="catastrofe natural" value="3"> 3
-                    </label>
-                    <label>
-                        <input class="seleccion" id="catastrofe4" type="radio" name="catastrofe natural" value="4"> 4
-                    </label>
-                    <label>
-                        <input class="seleccion" id="catastrofe5" type="radio" name="catastrofe natural" value="5"> 5
-                    </label>
-                </fieldset>
-                <br>
-                <br>
-
 
                 <legend class="derecha"> ¿De qué forma actuarías en una situación similar? </legend>
                 <textarea class="input message" placeholder="&#xf0e5;  Mensaje" rows="10" cols="40" maxlength="1000"
