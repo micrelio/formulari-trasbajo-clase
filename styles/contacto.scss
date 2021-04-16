@@ -316,6 +316,9 @@ textarea {
   resize: none;
   height: 150px;
   padding: 10px;
+  // margin-bottom: 0.5rem;
+  margin: 10px 0px 10px 0px;
+
   border: 1px solid silver;
 }
 .input.submit {
@@ -370,6 +373,7 @@ select option:disabled {
 .form-submitted .salida {
   transform: translateX(150%);
   opacity: 0;
+  display: none;
   transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 .form-submitted .input:nth-child(1) {

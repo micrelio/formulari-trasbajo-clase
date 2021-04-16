@@ -348,6 +348,7 @@ legend {
   resize: none;
   height: 150px;
   padding: 10px;
+  margin: 10px 0px 10px 0px;
   border: 1px solid silver;
 }
 
@@ -425,6 +426,7 @@ select option:disabled {
   -webkit-transform: translateX(150%);
           transform: translateX(150%);
   opacity: 0;
+  display: none;
   -webkit-transition: all 0.5s, -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
   transition: all 0.5s, -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
   transition: all 0.5s, transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0s;
