@@ -440,24 +440,24 @@ function validarFormulario() {
     return false;
   }
 
-  // var response = grecaptcha.getResponse();
-  // if (response.length == 0) {
-  //   //   alert("Captcha no verificado");
-  //   addClassNo();
-  //   $(recaptcha).addClass("form-error");
-  //   // $(recaptcha).addClass("color-error");
-  //   setTimeout(function () {
-  //     //   alert("Escriba su recaptcha por favor.");
-  //   }, 1000);
-  //   setTimeout(function () {
-  //     $(recaptcha).removeClass("form-error");
-  //   }, 1000);
-  //   recaptcha.focus();
-  //   verificar = false;
-  //   return false;
-  // } else {
-  //   // alert("Captcha verificado");
-  // }
+  var response = grecaptcha.getResponse();
+  if (response.length == 0) {
+    //   alert("Captcha no verificado");
+    addClassNo();
+    $(recaptcha).addClass("form-error");
+    // $(recaptcha).addClass("color-error");
+    setTimeout(function () {
+      //   alert("Escriba su recaptcha por favor.");
+    }, 1000);
+    setTimeout(function () {
+      $(recaptcha).removeClass("form-error");
+    }, 1000);
+    recaptcha.focus();
+    verificar = false;
+    return false;
+  } else {
+    // alert("Captcha verificado");
+  }
 
   if (verificar == true) {
     toggleClass();
