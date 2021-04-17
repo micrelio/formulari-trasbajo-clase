@@ -9,6 +9,20 @@ $(document).ready(function () {
       });
   }
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('input[type=text]').forEach( node => node.addEventListener('keypress', e => {
+    if(e.keyCode == 13) {
+      // No hacer nada
+      e.preventDefault();
+         }
+  }))
+});
+
+
+
+
 var formContainer = $("#form-container");
 //para abrir con boton descomentar esta linea
 // bindFormClick();
@@ -156,11 +170,11 @@ function validarFormulario() {
       nombre.focus();
     }, 1000);
     setTimeout(function () {
-            $(nombre).addClass("form-error");
+      $(nombre).addClass("form-error");
       $(nombre).addClass("color-error");
-        }, 1001);
-       // setTimeout(function () {
-      //   alert("Escriba su nombre por favor.");
+    }, 1001);
+    // setTimeout(function () {
+    //   alert("Escriba su nombre por favor.");
     // }, 1000);
     setTimeout(function () {
       $(nombre).removeClass("form-error");
@@ -184,16 +198,16 @@ function validarFormulario() {
   ) {
   } else {
     addClassNo();
-  
     setTimeout(function () {
-      generoso1.focus();    }, 1000);setTimeout(function () {
+      generoso1.focus();
+    }, 1000);
+    setTimeout(function () {
       $(generoso).addClass("form-error");
       $(generoso).addClass("color-error");
-        }, 1001);
+    }, 1001);
     setTimeout(function () {
       $(generoso).removeClass("form-error");
     }, 2000);
-    
     verificar = false;
     return false;
   }
@@ -213,15 +227,16 @@ function validarFormulario() {
   ) {
   } else {
     addClassNo();
-    $(ayudas).addClass("form-error");
-    $(ayudas).addClass("color-error");
     setTimeout(function () {
-      // alert("Escriba su ayudasso por favor.");
+      ayudas1.focus();
     }, 1000);
+    setTimeout(function () {
+      $(ayudas).addClass("form-error");
+      $(ayudas).addClass("color-error");
+    }, 1001);
     setTimeout(function () {
       $(ayudas).removeClass("form-error");
-    }, 1000);
-    ayudas1.focus();
+    }, 2000);
     verificar = false;
     return false;
   }
@@ -241,15 +256,17 @@ function validarFormulario() {
   ) {
   } else {
     addClassNo();
-    $(humilde).addClass("form-error");
-    $(humilde).addClass("color-error");
     setTimeout(function () {
-      // alert("Escriba su humildeso por favor.");
+      humilde1.focus();
     }, 1000);
+    setTimeout(function () {
+      $(humilde).addClass("form-error");
+      $(humilde).addClass("color-error");
+    }, 1001);
     setTimeout(function () {
       $(humilde).removeClass("form-error");
-    }, 1000);
-    humilde1.focus();
+      // alert("Escriba su humildeso por favor.");
+    }, 2000);
     verificar = false;
     return false;
   }
@@ -260,15 +277,17 @@ function validarFormulario() {
   if (voluntariadosi.checked || voluntariadono.checked) {
   } else {
     addClassNo();
-    $(voluntariado).addClass("form-error");
-    $(voluntariado).addClass("color-error");
     setTimeout(function () {
-      // alert("Escriba su voluntariadoso por favor.");
+      voluntariadosi.focus();
     }, 1000);
+    setTimeout(function () {
+      $(voluntariado).addClass("form-error");
+      $(voluntariado).addClass("color-error");
+    }, 1001);
     setTimeout(function () {
       $(voluntariado).removeClass("form-error");
-    }, 1000);
-    voluntariadosi.focus();
+      // alert("Escriba su voluntariadoso por favor.");
+    }, 2000);
     verificar = false;
     return false;
   }
@@ -279,15 +298,17 @@ function validarFormulario() {
   if (catastrofeSi.checked || catastrofeNo.checked) {
   } else {
     addClassNo();
-    $(catastrofe).addClass("form-error");
-    $(catastrofe).addClass("color-error");
     setTimeout(function () {
-      //  alert("Escriba su catastrofe por favor.");
+      catastrofeSi.focus();
     }, 1000);
+    setTimeout(function () {
+      $(catastrofe).addClass("form-error");
+      $(catastrofe).addClass("color-error");
+    }, 1001);
     setTimeout(function () {
       $(catastrofe).removeClass("form-error");
-    }, 1000);
-    catastrofeSi.focus();
+      // alert("Escriba su catastrofeso por favor.");
+    }, 2000);
     verificar = false;
     return false;
   }
@@ -307,16 +328,17 @@ function validarFormulario() {
   ) {
   } else {
     addClassNo();
-    $(valores).addClass("form-error");
-    $(valores).addClass("color-error");
     setTimeout(function () {
-      // alert("Escriba su valoresso por favor.");
+      empatia.focus();
     }, 1000);
+    setTimeout(function () {
+      $(valores).addClass("form-error");
+      $(valores).addClass("color-error");
+    }, 1001);
     setTimeout(function () {
       $(valores).removeClass("form-error");
-    }, 1000);
-    console.log("kakakakak");
-    empatia.focus();
+      // alert("Escriba su valoresso por favor.");
+    }, 2000);
     verificar = false;
     return false;
   }
@@ -409,46 +431,98 @@ function validarFormulario() {
   //   return false;
   // }
   if (!comentario.value) {
-    $(comentario).addClass("form-error");
-    $(comentario).addClass("color-error");
+    addClassNo();
     setTimeout(function () {
+      comentario.focus();
+    }, 1000);
+    setTimeout(function () {
+      $(comentario).addClass("form-error");
+      $(comentario).addClass("color-error");
+    }, 1001);
+    setTimeout(function () {
+      $(comentario).removeClass("form-error");
       //   alert("El campo comentarios es requerido");
-    }, 1000);
-    setTimeout(function () {
-      $(comentario).removeClass("form-error");
-    }, 1000);
-    comentario.focus();
+    }, 2000);
     verificar = false;
     return false;
+
+  //  ANTIGUO
+    // $(comentario).addClass("form-error");
+    // $(comentario).addClass("color-error");
+    // setTimeout(function () {
+    //   //   alert("El campo comentarios es requerido");
+    // }, 1000);
+    // setTimeout(function () {
+    //   $(comentario).removeClass("form-error");
+    // }, 1000);
+    // comentario.focus();
+    // verificar = false;
+    // return false;
   } else if (comentario.value.length > 1000) {
-    $(comentario).addClass("form-error");
-    $(comentario).addClass("color-error");
+    addClassNo();
     setTimeout(function () {
-      //   alert("El campo comentarios no puede tener mas de 1000 caracteres.");
+      comentario.focus();
     }, 1000);
+    setTimeout(function () {
+      $(comentario).addClass("form-error");
+      $(comentario).addClass("color-error");
+    }, 1001);
     setTimeout(function () {
       $(comentario).removeClass("form-error");
-    }, 1000);
-    comentario.focus();
+      //   alert("El campo comentarios no puede tener mas de 1000 caracteres.");
+    }, 2000);
     verificar = false;
     return false;
+
+      //  ANTIGUO
+    // $(comentario).addClass("form-error");
+    // $(comentario).addClass("color-error");
+    // setTimeout(function () {
+    //   //   alert("El campo comentarios no puede tener mas de 1000 caracteres.");
+    // }, 1000);
+    // setTimeout(function () {
+    //   $(comentario).removeClass("form-error");
+    // }, 1000);
+    // comentario.focus();
+    // verificar = false;
+    // return false;
   }
 
   var response = grecaptcha.getResponse();
   if (response.length == 0) {
-    //   alert("Captcha no verificado");
     addClassNo();
-    $(recaptcha).addClass("form-error");
-    // $(recaptcha).addClass("color-error");
     setTimeout(function () {
-      //   alert("Escriba su recaptcha por favor.");
+      recaptcha.focus();
     }, 1000);
+    setTimeout(function () {
+      $(recaptcha).addClass("form-error");
+    }, 1001);
     setTimeout(function () {
       $(recaptcha).removeClass("form-error");
-    }, 1000);
-    recaptcha.focus();
+    //   alert("Captcha no verificado");
+  }, 2000);
     verificar = false;
     return false;
+
+
+
+
+
+
+    // ANTIGUO
+    // //   alert("Captcha no verificado");
+    // addClassNo();
+    // $(recaptcha).addClass("form-error");
+    // // $(recaptcha).addClass("color-error");
+    // setTimeout(function () {
+    //   //   alert("Escriba su recaptcha por favor.");
+    // }, 1000);
+    // setTimeout(function () {
+    //   $(recaptcha).removeClass("form-error");
+    // }, 1000);
+    // recaptcha.focus();
+    // verificar = false;
+    // return false;
   } else {
     // alert("Captcha verificado");
   }
