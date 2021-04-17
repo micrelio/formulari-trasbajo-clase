@@ -152,16 +152,21 @@ function validarFormulario() {
   // form.find(".input").each(function () {
   if (!nombre.value) {
     addClassNo();
-    $(nombre).addClass("form-error");
-    $(nombre).addClass("color-error");
     setTimeout(function () {
-      //   alert("Escriba su nombre por favor.");
+      nombre.focus();
     }, 1000);
+    setTimeout(function () {
+            $(nombre).addClass("form-error");
+      $(nombre).addClass("color-error");
+        }, 1001);
+       // setTimeout(function () {
+      //   alert("Escriba su nombre por favor.");
+    // }, 1000);
     setTimeout(function () {
       $(nombre).removeClass("form-error");
-    }, 1000);
-    nombre.focus();
+    }, 2000);
     verificar = false;
+
     return false;
   }
   var generoso1 = document.getElementById("generoso1");
@@ -179,16 +184,16 @@ function validarFormulario() {
   ) {
   } else {
     addClassNo();
-    $(generoso).addClass("form-error");
-    $(generoso).addClass("color-error");
+  
     setTimeout(function () {
-      // alert("Escriba su generososo por favor.");
-    }, 1000);
+      generoso1.focus();    }, 1000);setTimeout(function () {
+      $(generoso).addClass("form-error");
+      $(generoso).addClass("color-error");
+        }, 1001);
     setTimeout(function () {
       $(generoso).removeClass("form-error");
-    }, 1000);
-    console.log("kakakakak");
-    generoso1.focus();
+    }, 2000);
+    
     verificar = false;
     return false;
   }
@@ -216,7 +221,6 @@ function validarFormulario() {
     setTimeout(function () {
       $(ayudas).removeClass("form-error");
     }, 1000);
-    console.log("kakakakak");
     ayudas1.focus();
     verificar = false;
     return false;
@@ -245,21 +249,15 @@ function validarFormulario() {
     setTimeout(function () {
       $(humilde).removeClass("form-error");
     }, 1000);
-    console.log("kakakakak");
     humilde1.focus();
     verificar = false;
     return false;
   }
 
- 
-
   var voluntariadosi = document.getElementById("voluntariadosi");
   var voluntariadono = document.getElementById("voluntariadono");
   var voluntariado = document.getElementById("voluntariado");
-  if (
-    voluntariadosi.checked ||
-    voluntariadono.checked 
-  ) {
+  if (voluntariadosi.checked || voluntariadono.checked) {
   } else {
     addClassNo();
     $(voluntariado).addClass("form-error");
@@ -275,11 +273,10 @@ function validarFormulario() {
     return false;
   }
 
- 
   var catastrofeSi = document.getElementById("catastrofeSi");
   var catastrofeNo = document.getElementById("catastrofeNo");
   var catastrofe = document.getElementById("catastrofe");
-   if (catastrofeSi.checked || catastrofeNo.checked ) {
+  if (catastrofeSi.checked || catastrofeNo.checked) {
   } else {
     addClassNo();
     $(catastrofe).addClass("form-error");
@@ -294,8 +291,6 @@ function validarFormulario() {
     verificar = false;
     return false;
   }
-
-
 
   var empatia = document.getElementById("empatia");
   var solidaridad = document.getElementById("solidaridad");
@@ -325,7 +320,6 @@ function validarFormulario() {
     verificar = false;
     return false;
   }
-
 
   //PARA PONER NOMBRE Y APELLIDOS
   // else if(nombre.value.split(" ").length < 2){
