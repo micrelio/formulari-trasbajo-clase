@@ -354,13 +354,13 @@ legend {
   color: rgba(255, 255, 255, 0.8);
   font-size: 90%;
 }
+
+
 input,
 select,
 textarea {
   // color: black;
 }
-
-
 
 .input.message {
   resize: none;
@@ -368,7 +368,6 @@ textarea {
   padding: 1rem;
   // margin-bottom: 0.5rem;
   margin: 1rem 0rem 1rem 0rem;
-
   border: 1px solid silver;
 }
 .input.submit {
