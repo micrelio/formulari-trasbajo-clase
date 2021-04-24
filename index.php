@@ -245,6 +245,7 @@
                         <label>
                             <input class="seleccion" id="solidaridad" type="radio"
                                 name="¿Cuáles son los valores que más destacas en el ser humano?" value="solidaridad">
+                            
                             Solidaridad
                         </label>
                         <label>
@@ -253,7 +254,8 @@
                             Honestidad
                         </label>
                         <label>
-                            <input class="seleccion" id="amor" type="radio"
+                            <input 
+                            class="seleccion" id="amor" type="radio"
                                 name="¿Cuáles son los valores que más destacas en el ser humano?" value="amor"> Amor
                         </label>
                         <label>
@@ -265,7 +267,8 @@
                 <br>
                 <div class="fieldset salida">
 
-                    <legend class=""> ¿De qué forma actuarías en una situación similar ocurrida en tu país? </legend>
+                    <legend class=""> 
+                    ¿De qué forma actuarías en una situación similar ocurrida en tu país? </legend>
                     <textarea class="input message" placeholder="&#xf0e5;  Mensaje" rows="10" cols="40" maxlength="1000"
                         id="comentario" name="comentario" onkeypress="calcular()" onkeyup="calcular()"></textarea>
                     <p class="">Le quedan <span id="contador-char">1000</span> de 1000 caracteres.</p>
