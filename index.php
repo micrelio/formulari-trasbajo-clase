@@ -202,6 +202,7 @@
                         </label>
                     </div>
                 </fieldset>
+                
                 <br>
 
                 <fieldset class="fieldset salida" id="voluntariado">
@@ -216,6 +217,7 @@
                                 name="¿Haces algún tipo de trabajo social?" value="No"> No
                         </label>
                     </div>
+
                 </fieldset>
                 <br>
 
@@ -233,11 +235,13 @@
                     </div>
                 </fieldset>
                 <br>
+
                 <br>
                 <fieldset class="fieldset salida" id="valores">
                     <legend> ¿Cuáles son los valores que más destacas en el ser humano? </legend>
                     <div class="vertical">
                         <label>
+
                             <input class="seleccion" id="empatia" type="radio"
                                 name="¿Cuáles son los valores que más destacas en el ser humano?" value="empatia">
                             Empatía
