@@ -201,17 +201,20 @@
                             5
                         </label>
                     </div>
+
                 </fieldset>
-                
+
                 <br>
 
                 <fieldset class="fieldset salida" id="voluntariado">
                     <legend> ¿Haces algún tipo de trabajo social? </legend>
                     <div class="vertical">
                         <label>
+
                             <input class="seleccion" id="voluntariadosi" type="radio"
                                 name="¿Haces algún tipo de trabajo social?" value="Si"> Sí
                         </label>
+
                         <label>
                             <input class="seleccion" id="voluntariadono" type="radio"
                                 name="¿Haces algún tipo de trabajo social?" value="No"> No
@@ -222,6 +225,7 @@
                 <br>
 
                 <fieldset class="fieldset salida" id="catastrofe">
+                
                     <legend> ¿Has vivido a alguna catástrofe natural de cerca? </legend>
                     <div class="vertical">
                         <label>
